@@ -1,0 +1,60 @@
+
+.vertical-parent {
+    height: 1500px;
+    background-color: rgb(231, 217, 28);
+    display: flex;
+    
+    /* flex#f0f8ffap; */
+    color: aliceblue;
+    /* (align-items: stretch; */
+    /* default) */
+    /* align-items: center; */
+    /* align-items: end; */
+    /* align-items: baseline; */
+}
+
+.child1 {
+    flex: 300px;
+}
+/* .vertical-5 {
+    align-self: flex-end; 
+    align-self: flex-start;
+    align-self: baseline;
+    align-self: last baseline;
+    align-self: center;
+    align-self: stretch;
+} */
+
+.vertical {
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+
+
+.parent {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: wrap-reverse column; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+}
+
+.div {
+    background-color: rgb(220, 138, 31);
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    /* flex-basis: 100px; */
+}
